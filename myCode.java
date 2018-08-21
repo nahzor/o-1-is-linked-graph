@@ -13,6 +13,8 @@ import java.util.*;
  * Assumption:
  * 1. The implementation assumes that there would not be multiple links between 2 same nodes as there is no concept of weights in this situation. If we need to accomodate such a scenario, we could add a count to the neighbor list.
  * 2. The implementation assumes that only integer values would be passed in. So, i have not added checks for non-integer value to discard them as bad input.
+ * Note:
+ * 1. This is not a thread-safe implementation. 
  * <p>
  * Notes:
  * <p>
