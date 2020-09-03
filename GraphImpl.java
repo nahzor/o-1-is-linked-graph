@@ -33,7 +33,7 @@ import java.util.*;
  * Q: 'Is linked' time complexity:
  * A: O(1) as all the processing is done during add and remove.
  */
-class myCode {
+class GraphImpl {
     /**
      * Add command prefix.
      */
@@ -390,7 +390,7 @@ class myCode {
 
     public static void main(String[] args) throws java.lang.Exception {
         //Create an instance of a Graph.
-        graph = new myCode().new Graph();
+        graph = new GraphImpl().new Graph();
 
         // Run in interactive mode and take inputs from the console.
         runInteractive();
